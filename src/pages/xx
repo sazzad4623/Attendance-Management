@@ -1,0 +1,20 @@
+<tr>
+                <td>{this.data1.user__id}</td>
+                <td>{this.data1.rfid_user_name}</td>
+                <td>{this.data1.rfid_no}</td>
+                <td>
+                  <label className="container">
+                    <input type="radio" name={1} />
+                    <span className="checkmark" />
+                  </label>
+                </td>
+                <td>
+                  <label className="content">
+                    <input type="radio" name={1} />
+                    <span className="checkmark" />
+                  </label>
+                </td>
+                <td>{this.data1.inTime}</td>
+                <td>{this.data1.mark}</td>
+              </tr>
+            ))}
